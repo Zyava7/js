@@ -35,7 +35,7 @@ do {
     if (lastFilm.length == 0 || lastFilm.length > 50 || lastFilm == null) {
         i--;
     }else{
-        i++
+        i++;
         const filmMark = +prompt("Яку оцінку йому поставите?", '');
         personalMovieDB.movies[lastFilm] = filmMark;
     }   
