@@ -12,7 +12,7 @@ const personalMovieDB = {
 if(personalMovieDB.count < 10) {
     alert("Подивились дуже мало фільмів");
 }else if(personalMovieDB.count >= 10 && personalMovieDB.count < 30){
-    alert("Ви классичний глядач");
+    alert("Ви класичний глядач");
 }else if(personalMovieDB.count >= 30){
     alert("Ви кіноман!");
 }else{
